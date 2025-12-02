@@ -1,0 +1,460 @@
+{
+  "common": {
+    "app": {
+      "name": "केयरकनेक्ट",
+      "tagline": "हेरचाह जोड्दै, सम्बन्ध बनाउँदै",
+      "description": "गुणस्तरीय हेरचाह सेवाहरू खोज्नको लागि नेपालको विश्वसनीय प्लेटफर्म"
+    },
+    "nav": {
+      "home": "गृहपृष्ठ",
+      "findCaregivers": "केयरगिभर खोज्नुहोस्",
+      "howItWorks": "यसले कसरी काम गर्छ",
+      "pricing": "मूल्य",
+      "aboutUs": "हाम्रो बारेमा",
+      "contact": "सम्पर्क",
+      "login": "लग इन",
+      "signup": "साइन अप",
+      "dashboard": "ड्यासबोर्ड",
+      "profile": "प्रोफाइल",
+      "settings": "सेटिङहरू",
+      "logout": "लग आउट",
+      "messages": "सन्देशहरू",
+      "notifications": "सूचनाहरू",
+      "bookings": "बुकिङहरू",
+      "help": "मद्दत"
+    },
+    "footer": {
+      "aboutUs": "हाम्रो बारेमा",
+      "careers": "क्यारियर",
+      "press": "प्रेस",
+      "blog": "ब्लग",
+      "contact": "सम्पर्क",
+      "help": "मद्दत केन्द्र",
+      "safetyCenter": "सुरक्षा केन्द्र",
+      "privacyPolicy": "गोपनीयता नीति",
+      "termsOfService": "सेवाका सर्तहरू",
+      "copyright": "© {{year}} केयरकनेक्ट। सर्वाधिकार सुरक्षित।",
+      "madeWith": "नेपालमा ❤️ का साथ बनाइएको"
+    },
+    "common": {
+      "loading": "लोड हुँदैछ...",
+      "error": "त्रुटि",
+      "success": "सफल",
+      "cancel": "रद्द गर्नुहोस्",
+      "save": "बचत गर्नुहोस्",
+      "edit": "सम्पादन गर्नुहोस्",
+      "delete": "मेटाउनुहोस्",
+      "confirm": "पुष्टि गर्नुहोस्",
+      "submit": "पेश गर्नुहोस्",
+      "search": "खोज्नुहोस्",
+      "filter": "फिल्टर",
+      "sort": "क्रमबद्ध गर्नुहोस्",
+      "clear": "खाली गर्नुहोस्",
+      "reset": "रिसेट",
+      "apply": "लागू गर्नुहोस्",
+      "close": "बन्द गर्नुहोस्",
+      "back": "पछाडि",
+      "next": "अर्को",
+      "previous": "अघिल्लो",
+      "viewAll": "सबै हेर्नुहोस्",
+      "viewMore": "थप हेर्नुहोस्",
+      "showMore": "थप देखाउनुहोस्",
+      "showLess": "कम देखाउनुहोस्",
+      "learnMore": "थप जान्नुहोस्",
+      "getStarted": "सुरु गर्नुहोस्",
+      "yes": "हो",
+      "no": "होइन",
+      "or": "वा",
+      "and": "र",
+      "all": "सबै",
+      "none": "कुनै पनि होइन",
+      "select": "छान्नुहोस्",
+      "optional": "वैकल्पिक",
+      "required": "आवश्यक",
+      "notFound": "फेला परेन",
+      "noResults": "कुनै परिणाम छैन",
+      "noData": "डाटा उपलब्ध छैन",
+      "retry": "पुन: प्रयास गर्नुहोस्",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय",
+      "pending": "पर्खिएको",
+      "approved": "स्वीकृत",
+      "rejected": "अस्वीकृत",
+      "completed": "सम्पन्न",
+      "cancelled": "रद्द भयो",
+      "inProgress": "प्रगतिमा",
+      "today": "आज",
+      "yesterday": "हिजो",
+      "tomorrow": "भोलि",
+      "perHour": "प्रति घण्टा",
+      "perDay": "प्रति दिन",
+      "perWeek": "प्रति हप्ता",
+      "perMonth": "प्रति महिना",
+      "hours": "घण्टा",
+      "minutes": "मिनेट",
+      "days": "दिन",
+      "weeks": "हप्ता",
+      "months": "महिना"
+    },
+    "language": {
+      "select": "भाषा छान्नुहोस्",
+      "en": "English (अंग्रेजी)",
+      "ne": "नेपाली",
+      "hi": "हिन्दी",
+      "ur": "اردو (उर्दू)",
+      "ar": "العربية (अरबी)",
+      "changeLanguage": "भाषा परिवर्तन गर्नुहोस्"
+    },
+    "currency": {
+      "npr": "NPR",
+      "symbol": "रु",
+      "format": "रु {{amount}}"
+    },
+    "errors": {
+      "generic": "केही गलत भयो। कृपया पुन: प्रयास गर्नुहोस्।",
+      "network": "नेटवर्क त्रुटि। कृपया आफ्नो कनेक्सन जाँच गर्नुहोस्।",
+      "unauthorized": "तपाईंलाई यो कार्य गर्न अनुमति छैन।",
+      "notFound": "अनुरोध गरिएको स्रोत फेला परेन।",
+      "serverError": "सर्भर त्रुटि। कृपया पछि पुन: प्रयास गर्नुहोस्।",
+      "sessionExpired": "तपाईंको सत्र समाप्त भयो। कृपया पुन: लग इन गर्नुहोस्।"
+    },
+    "validation": {
+      "required": "यो क्षेत्र आवश्यक छ",
+      "email": "कृपया मान्य इमेल ठेगाना प्रविष्ट गर्नुहोस्",
+      "phone": "कृपया मान्य फोन नम्बर प्रविष्ट गर्नुहोस्",
+      "minLength": "कम्तिमा {{min}} वर्ण हुनुपर्छ",
+      "passwordMatch": "पासवर्डहरू मेल खाँदैनन्"
+    },
+    "time": {
+      "justNow": "भर्खरै",
+      "minutesAgo": "{{count}} मिनेट अघि",
+      "hoursAgo": "{{count}} घण्टा अघि",
+      "daysAgo": "{{count}} दिन अघि"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "फेरि स्वागत छ",
+      "subtitle": "आफ्नो खातामा साइन इन गर्नुहोस्",
+      "email": "इमेल",
+      "password": "पासवर्ड",
+      "rememberMe": "मलाई सम्झनुहोस्",
+      "forgotPassword": "पासवर्ड बिर्सनुभयो?",
+      "signIn": "साइन इन",
+      "signInWithGoogle": "Google को साथ साइन इन",
+      "noAccount": "खाता छैन?",
+      "signUp": "साइन अप गर्नुहोस्",
+      "errors": {
+        "invalidCredentials": "अमान्य इमेल वा पासवर्ड",
+        "accountLocked": "खाता बन्द छ। कृपया पछि प्रयास गर्नुहोस्।"
+      }
+    },
+    "register": {
+      "title": "खाता बनाउनुहोस्",
+      "subtitle": "आज केयरकनेक्टमा सामेल हुनुहोस्",
+      "fullName": "पूरा नाम",
+      "email": "इमेल",
+      "phone": "फोन नम्बर",
+      "password": "पासवर्ड",
+      "confirmPassword": "पासवर्ड पुष्टि गर्नुहोस्",
+      "agreeToTerms": "म सेवाका सर्तहरू र गोपनीयता नीतिमा सहमत छु",
+      "createAccount": "खाता बनाउनुहोस्",
+      "signUpWithGoogle": "Google को साथ साइन अप",
+      "haveAccount": "पहिले नै खाता छ?",
+      "signIn": "साइन इन",
+      "selectRole": "म चाहन्छु...",
+      "roleCaregiver": "हेरचाह सेवाहरू प्रदान गर्न",
+      "roleCareseeker": "केयरगिभर खोज्न"
+    },
+    "forgotPassword": {
+      "title": "पासवर्ड रिसेट गर्नुहोस्",
+      "subtitle": "रिसेट निर्देशनहरू प्राप्त गर्न आफ्नो इमेल प्रविष्ट गर्नुहोस्",
+      "sendInstructions": "निर्देशनहरू पठाउनुहोस्",
+      "backToLogin": "लग इनमा फर्कनुहोस्"
+    },
+    "verifyEmail": {
+      "title": "इमेल प्रमाणित गर्नुहोस्",
+      "subtitle": "हामीले तपाईंको इमेलमा प्रमाणीकरण लिङ्क पठाएका छौं",
+      "resend": "प्रमाणीकरण इमेल पुन: पठाउनुहोस्"
+    }
+  },
+  "dashboard": {
+    "title": "ड्यासबोर्ड",
+    "welcome": "फेरि स्वागत छ, {{name}}!",
+    "overview": "अवलोकन",
+    "stats": {
+      "totalBookings": "कुल बुकिङहरू",
+      "activeBookings": "सक्रिय बुकिङहरू",
+      "completedBookings": "सम्पन्न बुकिङहरू",
+      "totalEarnings": "कुल आम्दानी",
+      "pendingPayments": "पर्खिएको भुक्तानी",
+      "averageRating": "औसत रेटिङ"
+    },
+    "quickActions": {
+      "title": "द्रुत कार्यहरू",
+      "newBooking": "नयाँ बुकिङ",
+      "viewCalendar": "क्यालेन्डर हेर्नुहोस्",
+      "updateProfile": "प्रोफाइल अपडेट",
+      "viewMessages": "सन्देशहरू हेर्नुहोस्"
+    },
+    "recentActivity": {
+      "title": "हालको गतिविधि",
+      "noActivity": "कुनै हालको गतिविधि छैन"
+    },
+    "upcomingBookings": {
+      "title": "आगामी बुकिङहरू",
+      "noBookings": "कुनै आगामी बुकिङ छैन",
+      "viewAll": "सबै हेर्नुहोस्"
+    },
+    "notifications": {
+      "title": "हालका सूचनाहरू",
+      "noNotifications": "कुनै सूचना छैन",
+      "markAllRead": "सबै पढिएको चिन्ह लगाउनुहोस्"
+    }
+  },
+  "booking": {
+    "title": "बुकिङहरू",
+    "newBooking": "नयाँ बुकिङ",
+    "details": "बुकिङ विवरण",
+    "status": {
+      "pending": "पर्खिएको",
+      "confirmed": "पुष्टि भयो",
+      "inProgress": "प्रगतिमा",
+      "completed": "सम्पन्न",
+      "cancelled": "रद्द भयो"
+    },
+    "serviceType": {
+      "elderly_care": "वृद्ध हेरचाह",
+      "child_care": "बाल हेरचाह",
+      "disability_care": "अपाङ्गता हेरचाह",
+      "medical_care": "चिकित्सा हेरचाह",
+      "companionship": "साथी सेवा",
+      "special_needs": "विशेष आवश्यकता हेरचाह"
+    },
+    "form": {
+      "selectCaregiver": "केयरगिभर छान्नुहोस्",
+      "selectService": "सेवा प्रकार छान्नुहोस्",
+      "selectDate": "मिति छान्नुहोस्",
+      "selectTime": "समय छान्नुहोस्",
+      "duration": "अवधि",
+      "location": "स्थान",
+      "specialInstructions": "विशेष निर्देशनहरू"
+    },
+    "summary": {
+      "title": "बुकिङ सारांश",
+      "service": "सेवा",
+      "duration": "अवधि",
+      "rate": "दर",
+      "subtotal": "उप-जम्मा",
+      "platformFee": "प्लेटफर्म शुल्क",
+      "total": "जम्मा"
+    },
+    "actions": {
+      "confirm": "बुकिङ पुष्टि गर्नुहोस्",
+      "cancel": "बुकिङ रद्द गर्नुहोस्",
+      "reschedule": "पुन: तालिका",
+      "startSession": "सत्र सुरु गर्नुहोस्",
+      "endSession": "सत्र समाप्त गर्नुहोस्"
+    },
+    "messages": {
+      "confirmSuccess": "बुकिङ सफलतापूर्वक पुष्टि भयो",
+      "cancelSuccess": "बुकिङ सफलतापूर्वक रद्द भयो"
+    }
+  },
+  "payment": {
+    "title": "भुक्तानी",
+    "summary": "भुक्तानी सारांश",
+    "methods": {
+      "title": "भुक्तानी विधिहरू",
+      "stripe": "क्रेडिट/डेबिट कार्ड",
+      "khalti": "खल्ती",
+      "esewa": "इसेवा"
+    },
+    "status": {
+      "pending": "भुक्तानी पर्खिएको",
+      "processing": "प्रक्रिया हुँदैछ",
+      "completed": "भुक्तानी भयो",
+      "failed": "भुक्तानी असफल",
+      "refunded": "फिर्ता भयो"
+    },
+    "breakdown": {
+      "subtotal": "उप-जम्मा",
+      "platformFee": "प्लेटफर्म शुल्क",
+      "taxes": "कर",
+      "discount": "छुट",
+      "total": "जम्मा"
+    },
+    "buttons": {
+      "pay": "अहिले भुक्तानी गर्नुहोस्",
+      "retry": "पुन: प्रयास गर्नुहोस्",
+      "viewReceipt": "रसिद हेर्नुहोस्"
+    },
+    "messages": {
+      "success": "भुक्तानी सफल!",
+      "failed": "भुक्तानी असफल। कृपया पुन: प्रयास गर्नुहोस्।",
+      "processing": "तपाईंको भुक्तानी प्रक्रिया हुँदैछ..."
+    }
+  },
+  "notifications": {
+    "title": "सूचनाहरू",
+    "markAllRead": "सबै पढिएको चिन्ह लगाउनुहोस्",
+    "clearAll": "सबै खाली गर्नुहोस्",
+    "noNotifications": "कुनै सूचना छैन",
+    "types": {
+      "booking_request": "बुकिङ अनुरोध",
+      "booking_confirmed": "बुकिङ पुष्टि भयो",
+      "booking_cancelled": "बुकिङ रद्द भयो",
+      "booking_completed": "बुकिङ सम्पन्न भयो",
+      "payment_received": "भुक्तानी प्राप्त भयो",
+      "payment_due": "भुक्तानी बाँकी",
+      "new_message": "नयाँ सन्देश",
+      "review_received": "नयाँ समीक्षा"
+    }
+  },
+  "admin": {
+    "title": "एडमिन प्यानल",
+    "dashboard": "ड्यासबोर्ड",
+    "users": {
+      "title": "प्रयोगकर्ताहरू",
+      "total": "कुल प्रयोगकर्ताहरू",
+      "caregivers": "केयरगिभरहरू",
+      "careSeekers": "केयर सिकरहरू",
+      "pending": "स्वीकृति पर्खिएको"
+    },
+    "documents": {
+      "title": "कागजातहरू",
+      "pending": "समीक्षा पर्खिएको",
+      "approved": "स्वीकृत",
+      "rejected": "अस्वीकृत"
+    },
+    "bookings": {
+      "title": "बुकिङहरू",
+      "active": "सक्रिय बुकिङहरू",
+      "completed": "सम्पन्न",
+      "cancelled": "रद्द भयो"
+    },
+    "settings": {
+      "title": "सेटिङहरू",
+      "general": "सामान्य सेटिङहरू",
+      "payment": "भुक्तानी सेटिङहरू",
+      "notifications": "सूचना सेटिङहरू"
+    }
+  },
+  "profile": {
+    "title": "प्रोफाइल",
+    "editProfile": "प्रोफाइल सम्पादन",
+    "viewProfile": "प्रोफाइल हेर्नुहोस्",
+    "sections": {
+      "personal": "व्यक्तिगत जानकारी",
+      "contact": "सम्पर्क जानकारी",
+      "location": "स्थान",
+      "documents": "कागजातहरू",
+      "settings": "सेटिङहरू"
+    },
+    "fields": {
+      "fullName": "पूरा नाम",
+      "email": "इमेल",
+      "phone": "फोन",
+      "gender": "लिङ्ग",
+      "bio": "बायो",
+      "address": "ठेगाना",
+      "city": "शहर"
+    },
+    "actions": {
+      "save": "परिवर्तनहरू बचत गर्नुहोस्",
+      "cancel": "रद्द गर्नुहोस्",
+      "changePassword": "पासवर्ड परिवर्तन गर्नुहोस्"
+    },
+    "messages": {
+      "updateSuccess": "प्रोफाइल सफलतापूर्वक अपडेट भयो",
+      "updateFailed": "प्रोफाइल अपडेट गर्न असफल"
+    }
+  },
+  "caregiver": {
+    "title": "केयरगिभर प्रोफाइल",
+    "sections": {
+      "experience": "अनुभव",
+      "skills": "सीपहरू",
+      "certifications": "प्रमाणपत्रहरू",
+      "availability": "उपलब्धता",
+      "rates": "दरहरू"
+    },
+    "fields": {
+      "yearsExperience": "अनुभवको वर्ष",
+      "specializations": "विशेषज्ञताहरू",
+      "languages": "भाषाहरू",
+      "hourlyRate": "प्रति घण्टा दर",
+      "dailyRate": "प्रति दिन दर",
+      "weeklyRate": "प्रति हप्ता दर",
+      "monthlyRate": "प्रति महिना दर"
+    },
+    "availability": {
+      "title": "आफ्नो उपलब्धता सेट गर्नुहोस्",
+      "available": "उपलब्ध",
+      "unavailable": "अनुपलब्ध",
+      "monday": "सोमबार",
+      "tuesday": "मंगलबार",
+      "wednesday": "बुधबार",
+      "thursday": "बिहीबार",
+      "friday": "शुक्रबार",
+      "saturday": "शनिबार",
+      "sunday": "आइतबार"
+    },
+    "verification": {
+      "title": "प्रमाणीकरण स्थिति",
+      "verified": "प्रमाणित",
+      "pending": "प्रमाणीकरण पर्खिएको"
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "आफ्ना प्रियजनहरूको लागि विश्वसनीय हेरचाह खोज्नुहोस्",
+      "subtitle": "परिवारहरूलाई प्रमाणित, व्यावसायिक केयरगिभरहरूसँग जोड्ने नेपालको अग्रणी प्लेटफर्म",
+      "findCaregiver": "केयरगिभर खोज्नुहोस्",
+      "becomeCaregiver": "केयरगिभर बन्नुहोस्"
+    },
+    "features": {
+      "title": "किन केयरकनेक्ट छान्ने?",
+      "verified": {
+        "title": "प्रमाणित केयरगिभरहरू",
+        "description": "सबै केयरगिभरहरूको पृष्ठभूमि जाँच र प्रमाणीकरण गरिन्छ"
+      },
+      "secure": {
+        "title": "सुरक्षित भुक्तानी",
+        "description": "धेरै भुक्तानी विकल्पहरूको साथ सुरक्षित भुक्तानी प्रक्रिया"
+      },
+      "support": {
+        "title": "२४/७ सहयोग",
+        "description": "हाम्रो सहयोग टोली सधैं तपाईंको मद्दतको लागि उपलब्ध छ"
+      },
+      "matching": {
+        "title": "स्मार्ट म्याचिङ",
+        "description": "तपाईंको आवश्यकताको लागि उत्तम केयरगिभर खोज्न AI-संचालित म्याचिङ"
+      }
+    },
+    "howItWorks": {
+      "title": "यसले कसरी काम गर्छ",
+      "step1": {
+        "title": "खाता बनाउनुहोस्",
+        "description": "साइन अप गर्नुहोस् र हामीलाई आफ्नो हेरचाह आवश्यकताहरू बारे बताउनुहोस्"
+      },
+      "step2": {
+        "title": "केयरगिभर खोज्नुहोस्",
+        "description": "तपाईंको क्षेत्रमा प्रमाणित केयरगिभरहरू ब्राउज गर्नुहोस्"
+      },
+      "step3": {
+        "title": "बुक गर्नुहोस् र जडान गर्नुहोस्",
+        "description": "आफ्नो मनपर्ने केयरगिभर बुक गर्नुहोस् र हेरचाह सुरु गर्नुहोस्"
+      },
+      "step4": {
+        "title": "हेरचाह सुरु गर्नुहोस्",
+        "description": "विश्वसनीय हेरचाह प्राप्त गर्नुहोस् र विश्वासका साथ प्रगति ट्र्याक गर्नुहोस्"
+      }
+    },
+    "cta": {
+      "title": "सुरु गर्न तयार हुनुहुन्छ?",
+      "subtitle": "केयरकनेक्टमा विश्वास गर्ने हजारौं परिवारहरूमा सामेल हुनुहोस्",
+      "button": "अहिले सुरु गर्नुहोस्"
+    }
+  }
+}
