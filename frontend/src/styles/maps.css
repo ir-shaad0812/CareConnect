@@ -1,0 +1,194 @@
+/**
+ * Custom Map Styles
+ * Production-grade styling for Leaflet maps in CareConnect
+ */
+
+/* Custom Popup Styling */
+.leaflet-popup-content-wrapper {
+  @apply rounded-lg shadow-lg border border-neutral-200;
+  padding: 0;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  min-width: 200px;
+}
+
+.leaflet-popup-tip {
+  @apply bg-white;
+}
+
+.custom-popup .leaflet-popup-close-button {
+  @apply text-neutral-400 hover:text-neutral-600;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.admin-custom-popup .leaflet-popup-content-wrapper {
+  @apply shadow-xl;
+  min-width: 280px;
+}
+
+/* Marker Styling */
+.custom-marker-icon {
+  background: transparent;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.leaflet-marker-icon:hover {
+  transform: scale(1.1);
+  z-index: 1000 !important;
+}
+
+.user-location-marker {
+  background: transparent;
+  border: none;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Decorative Marker Animation */
+.decorative-marker {
+  background: transparent;
+  border: none;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Cluster Styling */
+.custom-cluster-icon {
+  background: transparent;
+  border: none;
+}
+
+.marker-cluster {
+  @apply transition-transform duration-200;
+}
+
+.marker-cluster:hover {
+  @apply transform scale-110;
+}
+
+/* Map Container Styling */
+.leaflet-container {
+  @apply bg-neutral-50;
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  @apply text-xs opacity-70;
+}
+
+/* Zoom Control Styling */
+.leaflet-control-zoom {
+  @apply border-none shadow-lg;
+}
+
+.leaflet-control-zoom a {
+  @apply bg-white text-neutral-700 border border-neutral-200;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  transition: all 0.2s;
+}
+
+.leaflet-control-zoom a:hover {
+  @apply bg-blue-50 text-blue-600 border-blue-200;
+}
+
+.leaflet-control-zoom a:first-child {
+  @apply rounded-t-lg;
+}
+
+.leaflet-control-zoom a:last-child {
+  @apply rounded-b-lg;
+}
+
+/* Circle Overlay Styling */
+.leaflet-interactive {
+  transition: all 0.3s ease;
+}
+
+/* Touch-friendly on mobile */
+@media (max-width: 768px) {
+  .leaflet-popup-content-wrapper {
+    max-width: 85vw !important;
+  }
+  
+  .leaflet-control-zoom a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .custom-marker-icon {
+    transform: scale(0.9);
+  }
+}
+
+/* Accessibility Improvements */
+.leaflet-container:focus {
+  @apply outline-none ring-2 ring-blue-600 ring-offset-2;
+}
+
+.leaflet-marker-icon:focus {
+  @apply outline-none ring-2 ring-blue-600 ring-offset-2 rounded-full;
+}
+
+/* Loading State */
+.leaflet-tile-container {
+  transition: opacity 0.2s;
+}
+
+.leaflet-tile-loaded {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .leaflet-container {
+    @apply bg-neutral-900;
+  }
+  
+  .leaflet-popup-content-wrapper {
+    @apply bg-neutral-800 border-neutral-700;
+  }
+  
+  .leaflet-popup-tip {
+    @apply bg-neutral-800;
+  }
+  
+  .leaflet-control-zoom a {
+    @apply bg-neutral-800 text-neutral-200 border-neutral-700;
+  }
+  
+  .leaflet-control-zoom a:hover {
+    @apply bg-neutral-700 text-white;
+  }
+}
