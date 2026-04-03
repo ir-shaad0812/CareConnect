@@ -1,0 +1,10 @@
+.next
+node_modules
+.env
+.env_local
+.env_development
+.env_production
+package-lock.json
+
+build_output.txt
+ts-errors.txt
