@@ -1,0 +1,314 @@
+[
+  {
+    "_id": "guest-cg-001",
+    "user": {
+      "_id": "guest-user-001",
+      "fullName": "Sita Sharma",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Kathmandu",
+        "state": "Bagmati Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-001",
+      "fullName": "Sita Sharma",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["elderly_care", "companionship", "meal_preparation"],
+    "skills": ["Mobility Assistance", "Medication Reminder", "Meal Preparation"],
+    "hourlyRate": 900,
+    "experience": 6,
+    "rating": 4.9,
+    "totalReviews": 82,
+    "bio": "Compassionate caregiver focused on elderly well-being and reliable daily support.",
+    "availability": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "timeSlots": ["morning", "afternoon"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Hindi"],
+    "certifications": ["First Aid", "Elder Care Training"],
+    "distance": 2.1,
+    "featured": true,
+    "completedJobs": 140,
+    "responseTime": "< 1 hour",
+    "completionPercentage": 98
+  },
+  {
+    "_id": "guest-cg-002",
+    "user": {
+      "_id": "guest-user-002",
+      "fullName": "Aarav Thapa",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Pokhara",
+        "state": "Gandaki Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-002",
+      "fullName": "Aarav Thapa",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["post_surgery", "medication_management", "mobility_assistance"],
+    "skills": ["Medication Management", "Post-Surgery Assistance", "Vital Checks"],
+    "hourlyRate": 1100,
+    "experience": 8,
+    "rating": 4.8,
+    "totalReviews": 67,
+    "bio": "Post-surgery care specialist helping families manage recovery safely at home.",
+    "availability": {
+      "days": ["Mon", "Tue", "Thu", "Fri", "Sat"],
+      "timeSlots": ["morning", "evening"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali"],
+    "certifications": ["Home Care Certification", "CPR"],
+    "distance": 4.6,
+    "featured": true,
+    "completedJobs": 123,
+    "responseTime": "< 2 hours",
+    "completionPercentage": 96
+  },
+  {
+    "_id": "guest-cg-003",
+    "user": {
+      "_id": "guest-user-003",
+      "fullName": "Mina Gurung",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Lalitpur",
+        "state": "Bagmati Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-003",
+      "fullName": "Mina Gurung",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["child_care", "special_needs", "companionship"],
+    "skills": ["Child Engagement", "Special Needs Support", "Behavioral Guidance"],
+    "hourlyRate": 850,
+    "experience": 5,
+    "rating": 4.7,
+    "totalReviews": 58,
+    "bio": "Patient caregiver with child-focused routines and special-needs support experience.",
+    "availability": {
+      "days": ["Mon", "Wed", "Thu", "Fri"],
+      "timeSlots": ["afternoon", "evening"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Spanish"],
+    "certifications": ["Child Development", "First Aid"],
+    "distance": 1.9,
+    "featured": false,
+    "completedJobs": 95,
+    "responseTime": "< 2 hours",
+    "completionPercentage": 95
+  },
+  {
+    "_id": "guest-cg-004",
+    "user": {
+      "_id": "guest-user-004",
+      "fullName": "Rohan Karki",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Bhaktapur",
+        "state": "Bagmati Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-004",
+      "fullName": "Rohan Karki",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["overnight_care", "elderly_care", "dementia_care"],
+    "skills": ["Overnight Monitoring", "Dementia Care", "Emergency Response"],
+    "hourlyRate": 1250,
+    "experience": 9,
+    "rating": 4.9,
+    "totalReviews": 101,
+    "bio": "Trusted overnight caregiver with advanced dementia-care routines and calm support.",
+    "availability": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "timeSlots": ["overnight"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Arabic"],
+    "certifications": ["Dementia Care", "CPR"],
+    "distance": 6.2,
+    "featured": true,
+    "completedJobs": 176,
+    "responseTime": "< 1 hour",
+    "completionPercentage": 99
+  },
+  {
+    "_id": "guest-cg-005",
+    "user": {
+      "_id": "guest-user-005",
+      "fullName": "Elena Basnet",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Biratnagar",
+        "state": "Koshi Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-005",
+      "fullName": "Elena Basnet",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["disability_care", "mobility_assistance", "personal_care"],
+    "skills": ["Mobility Support", "Personal Hygiene", "Adaptive Routine Planning"],
+    "hourlyRate": 980,
+    "experience": 7,
+    "rating": 4.6,
+    "totalReviews": 49,
+    "bio": "Disability care provider focused on dignity, independence, and consistent routines.",
+    "availability": {
+      "days": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+      "timeSlots": ["morning", "afternoon"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "French"],
+    "certifications": ["Caregiving Fundamentals", "Assistive Mobility"],
+    "distance": 8.3,
+    "featured": false,
+    "completedJobs": 88,
+    "responseTime": "< 3 hours",
+    "completionPercentage": 94
+  },
+  {
+    "_id": "guest-cg-006",
+    "user": {
+      "_id": "guest-user-006",
+      "fullName": "Kabita Rai",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Dharan",
+        "state": "Koshi Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-006",
+      "fullName": "Kabita Rai",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["child_care", "respite_care", "meal_preparation"],
+    "skills": ["Meal Preparation", "Homework Support", "Respite Planning"],
+    "hourlyRate": 760,
+    "experience": 4,
+    "rating": 4.5,
+    "totalReviews": 31,
+    "bio": "Warm and structured caregiver for families needing dependable child-care respite.",
+    "availability": {
+      "days": ["Mon", "Tue", "Thu", "Sat"],
+      "timeSlots": ["morning", "afternoon"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Hindi"],
+    "certifications": ["Basic Child Care", "Emergency Preparedness"],
+    "distance": 11.5,
+    "featured": false,
+    "completedJobs": 62,
+    "responseTime": "< 4 hours",
+    "completionPercentage": 93
+  },
+  {
+    "_id": "guest-cg-007",
+    "user": {
+      "_id": "guest-user-007",
+      "fullName": "Prakash Lama",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Butwal",
+        "state": "Lumbini Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-007",
+      "fullName": "Prakash Lama",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["palliative_care", "companionship", "personal_care"],
+    "skills": ["Palliative Support", "Companionship", "Comfort Care"],
+    "hourlyRate": 1150,
+    "experience": 10,
+    "rating": 4.8,
+    "totalReviews": 92,
+    "bio": "Experienced palliative caregiver offering calm, respectful, family-centered care.",
+    "availability": {
+      "days": ["Mon", "Tue", "Wed", "Fri", "Sat"],
+      "timeSlots": ["morning", "evening"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Arabic"],
+    "certifications": ["Palliative Care", "First Aid"],
+    "distance": 9.7,
+    "featured": true,
+    "completedJobs": 157,
+    "responseTime": "< 90 mins",
+    "completionPercentage": 97
+  },
+  {
+    "_id": "guest-cg-008",
+    "user": {
+      "_id": "guest-user-008",
+      "fullName": "Farzana KC",
+      "avatar": "/login/Register/Happy_faces.png",
+      "location": {
+        "city": "Nepalgunj",
+        "state": "Lumbini Province",
+        "country": "Nepal"
+      }
+    },
+    "userId": {
+      "_id": "guest-user-008",
+      "fullName": "Farzana KC",
+      "avatar": "/login/Register/Happy_faces.png"
+    },
+    "serviceTypes": ["special_needs", "disability_care", "companionship"],
+    "skills": ["Special Needs Assistance", "Routine Coordination", "Emotional Support"],
+    "hourlyRate": 920,
+    "experience": 6,
+    "rating": 4.7,
+    "totalReviews": 54,
+    "bio": "Reliable special-needs caregiver who combines structure with empathetic companionship.",
+    "availability": {
+      "days": ["Mon", "Wed", "Thu", "Fri", "Sun"],
+      "timeSlots": ["afternoon", "evening"],
+      "isAvailable": true
+    },
+    "verified": true,
+    "backgroundCheck": { "status": "approved" },
+    "languages": ["English", "Nepali", "Spanish"],
+    "certifications": ["Special Needs Care", "CPR"],
+    "distance": 13.1,
+    "featured": false,
+    "completedJobs": 73,
+    "responseTime": "< 3 hours",
+    "completionPercentage": 95
+  }
+]
