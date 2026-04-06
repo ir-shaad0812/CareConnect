@@ -1,0 +1,540 @@
+@import "tailwindcss";
+
+/* Leaflet CSS */
+@import "leaflet/dist/leaflet.css";
+@import "leaflet.markercluster/dist/MarkerCluster.css";
+@import "leaflet.markercluster/dist/MarkerCluster.Default.css";
+
+/* Custom Map Styles */
+@import "../styles/maps.css";
+
+/* ============================================
+   Tailwind v4 Theme Configuration
+   ============================================ */
+@theme {
+    /* Custom Font Families */
+    --font-hubot:
+        "Hubot Sans", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-inter:
+        "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", "Consolas", "Monaco", monospace;
+
+    /* CareConnect Color Palette */
+    --color-primary-50: #f0fdf4;
+    --color-primary-100: #dcfce7;
+    --color-primary-200: #bbf7d0;
+    --color-primary-300: #86efac;
+    --color-primary-400: #4ade80;
+    --color-primary-500: #39b54a;
+    --color-primary-600: #2d913c;
+    --color-primary-700: #247a32;
+    --color-primary-800: #1a5e26;
+    --color-primary-900: #14451d;
+
+    --color-secondary-50: #f8f5ff;
+    --color-secondary-100: #f0e8ff;
+    --color-secondary-200: #e0cfff;
+    --color-secondary-300: #c9a8ff;
+    --color-secondary-400: #a87bff;
+    --color-secondary-500: #8b54f7;
+    --color-secondary-600: #6d35de;
+    --color-secondary-700: #5221b5;
+    --color-secondary-800: #3d1a80;
+    --color-secondary-900: #2a1157;
+}
+
+/* ============================================
+   CSS Variables - CareConnect Theme
+   ============================================ */
+:root {
+    /* Font Families */
+    --font-hubot: "Hubot Sans", "Inter", "IBM Plex Sans", system-ui, sans-serif;
+    --font-inter: "Inter", "IBM Plex Sans", system-ui, sans-serif;
+    --font-ibm-sans: "IBM Plex Sans", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", monospace;
+
+    /* Primary Colors (Green) */
+    --color-primary: #39b54a;
+    --color-primary-light: #f0fdf4;
+    --color-primary-hover: #2d913c;
+    --color-primary-pressed: #247a32;
+    --color-primary-bg: #f0fdf4;
+
+    /* Secondary Colors (Purple) */
+    --color-secondary: #8b54f7;
+    --color-secondary-light: #f8f5ff;
+    --color-secondary-hover: #6d35de;
+    --color-secondary-pressed: #5221b5;
+    --color-secondary-bg: #f8f5ff;
+
+    /* Status Colors */
+    --color-success: #10b981;
+    --color-success-bg: #ecfdf5;
+    --color-error: #ef4444;
+    --color-error-bg: #fef2f2;
+    --color-warning: #f59e0b;
+    --color-warning-bg: #fffbeb;
+    --color-info: #3b82f6;
+    --color-info-bg: #eff6ff;
+
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-base: #f0f5ff;
+    --bg-secondary: #f8f5ff;
+    --bg-card: #ffffff;
+    --bg-elevated: #ffffff;
+    --bg-hover: #f0f5ff;
+
+    /* Border Colors */
+    --border-divider: #e1e6ef;
+    --border-light: #e1e6ef;
+    --border-medium: #c7ced9;
+    --border-focus: #4461f2;
+
+    /* Text Colors */
+    --text-primary: #1d2433;
+    --text-secondary: rgba(29, 36, 51, 0.8);
+    --text-disabled: rgba(29, 36, 51, 0.65);
+    --text-tertiary: rgba(29, 36, 51, 0.5);
+    --text-inverse: #ffffff;
+    --text-on-primary: #ffffff;
+
+    /* Icon Colors */
+    --icon-primary: #1d2433;
+    --icon-secondary: rgba(29, 36, 51, 0.8);
+    --icon-disabled: rgba(29, 36, 51, 0.65);
+
+    /* Shadows */
+    --shadow-xs: 0 1px 2px 0 rgba(29, 36, 51, 0.05);
+    --shadow-sm:
+        0 1px 3px 0 rgba(29, 36, 51, 0.08),
+        0 1px 2px -1px rgba(29, 36, 51, 0.08);
+    --shadow-md:
+        0 4px 6px -1px rgba(29, 36, 51, 0.08),
+        0 2px 4px -2px rgba(29, 36, 51, 0.08);
+    --shadow-lg:
+        0 10px 15px -3px rgba(29, 36, 51, 0.08),
+        0 4px 6px -4px rgba(29, 36, 51, 0.08);
+    --shadow-xl:
+        0 20px 25px -5px rgba(29, 36, 51, 0.1),
+        0 8px 10px -6px rgba(29, 36, 51, 0.08);
+    --shadow-primary: 0 4px 14px -2px rgba(68, 97, 242, 0.25);
+    --shadow-secondary: 0 4px 14px -2px rgba(139, 84, 247, 0.25);
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-2xl: 24px;
+    --radius-full: 9999px;
+
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================
+   Base Styles & Resets
+   ============================================ */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-hubot);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+}
+
+/* Font utility class - used in components */
+.font-hubot {
+    font-family: var(--font-hubot);
+}
+
+/* ============================================
+   Custom Scrollbar
+   ============================================ */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-base);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-medium);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* ============================================
+   Accessibility & Focus Styles
+   ============================================ */
+:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* ============================================
+   Dashboard Animations
+   ============================================ */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+@keyframes draw-circle {
+    from {
+        stroke-dashoffset: 226;
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-slide-in-left {
+    animation: slideInLeft 0.4s ease-out forwards;
+}
+
+.animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+}
+
+.animate-draw-circle {
+    animation: draw-circle 1s ease-out forwards;
+}
+
+/* Staggered animation delays */
+.stagger-1 {
+    animation-delay: 0.1s;
+}
+.stagger-2 {
+    animation-delay: 0.2s;
+}
+.stagger-3 {
+    animation-delay: 0.3s;
+}
+.stagger-4 {
+    animation-delay: 0.4s;
+}
+.stagger-5 {
+    animation-delay: 0.5s;
+}
+
+/* ============================================
+   Browser Fixes & Normalizations
+   ============================================ */
+button {
+    font-family: inherit;
+}
+
+::selection {
+    background-color: rgba(68, 97, 242, 0.2);
+    color: inherit;
+}
+
+::placeholder {
+    color: var(--text-disabled);
+    opacity: 1;
+}
+
+/* Autofill styling fix */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: var(--text-primary);
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Hide spin buttons on number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* ============================================
+   RTL (Right-to-Left) Support
+   For Urdu (ur) and Arabic (ar) languages
+   ============================================ */
+
+/* Base RTL styles */
+[dir="rtl"] {
+    text-align: right;
+}
+
+/* RTL body class styles */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+body.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+/* RTL-aware margins and paddings using logical properties */
+.rtl-aware {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+/* Flip icons and directional elements in RTL */
+[dir="rtl"] .flip-rtl {
+    transform: scaleX(-1);
+}
+
+/* RTL-specific flexbox */
+[dir="rtl"] .flex-row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .flex-row-rtl-aware {
+    flex-direction: row-reverse;
+}
+
+/* RTL text alignment overrides */
+[dir="rtl"] .text-left {
+    text-align: right;
+}
+
+[dir="rtl"] .text-right {
+    text-align: left;
+}
+
+/* RTL-aware spacing */
+[dir="rtl"] .ml-auto {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* RTL-safe positioning */
+[dir="rtl"] .left-0 {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .right-0 {
+    right: auto;
+    left: 0;
+}
+
+/* RTL form inputs */
+[dir="rtl"] input,
+[dir="rtl"] textarea,
+[dir="rtl"] select {
+    text-align: right;
+}
+
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="url"],
+[dir="rtl"] input[type="tel"] {
+    text-align: left;
+    direction: ltr;
+}
+
+/* RTL dropdown/select arrows */
+[dir="rtl"] select {
+    background-position: left 0.75rem center;
+    padding-right: 0.75rem;
+    padding-left: 2.5rem;
+}
+
+/* RTL-aware borders */
+[dir="rtl"] .border-l {
+    border-left: 0;
+    border-right: 1px solid;
+}
+
+[dir="rtl"] .border-r {
+    border-right: 0;
+    border-left: 1px solid;
+}
+
+/* RTL scrollbar positioning */
+[dir="rtl"] ::-webkit-scrollbar {
+    direction: rtl;
+}
+
+/* RTL-aware animations */
+[dir="rtl"] .animate-slide-in-left {
+    animation-name: slideInRight;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Arabic font support */
+[lang="ar"],
+.font-arabic {
+    font-family: "Noto Sans Arabic", "Segoe UI", "Tahoma", sans-serif;
+}
+
+/* RTL number handling - keep numbers LTR */
+[dir="rtl"] .number,
+[dir="rtl"] .price,
+[dir="rtl"] .currency {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+/* RTL navigation */
+[dir="rtl"] nav ul {
+    flex-direction: row-reverse;
+}
+
+/* RTL sidebar */
+[dir="rtl"] .sidebar {
+    right: 0;
+    left: auto;
+}
+
+[dir="rtl"] .sidebar-collapsed {
+    transform: translateX(100%);
+}
+
+/* RTL modal positioning */
+[dir="rtl"] .modal-close {
+    right: auto;
+    left: 1rem;
+}
+
+/* RTL breadcrumb separator */
+[dir="rtl"] .breadcrumb-separator {
+    transform: scaleX(-1);
+}
+
+/* RTL checkbox and radio positioning */
+[dir="rtl"] input[type="checkbox"],
+[dir="rtl"] input[type="radio"] {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* RTL progress bars */
+[dir="rtl"] .progress-bar {
+    direction: rtl;
+}
+
+[dir="rtl"] .progress-fill {
+    transform-origin: right;
+}
+
+/* RTL tables */
+[dir="rtl"] table {
+    direction: rtl;
+}
+
+[dir="rtl"] th,
+[dir="rtl"] td {
+    text-align: right;
+}
+
+/* RTL tooltips */
+[dir="rtl"] .tooltip {
+    text-align: right;
+}
+
+[dir="rtl"] .tooltip-left {
+    right: auto;
+    left: 100%;
+}
+
+[dir="rtl"] .tooltip-right {
+    left: auto;
+    right: 100%;
+}
