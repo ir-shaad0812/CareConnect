@@ -1,0 +1,35 @@
+{
+  "country": "Nepal",
+  "defaultCenter": {
+    "lat": 27.7172,
+    "lng": 85.324
+  },
+  "locations": [
+    { "city": "Kathmandu", "district": "Kathmandu", "province": "Bagmati Province", "country": "Nepal", "latitude": 27.7172, "longitude": 85.3240, "postalCode": "44600" },
+    { "city": "Lalitpur", "district": "Lalitpur", "province": "Bagmati Province", "country": "Nepal", "latitude": 27.6644, "longitude": 85.3188, "postalCode": "44700" },
+    { "city": "Bhaktapur", "district": "Bhaktapur", "province": "Bagmati Province", "country": "Nepal", "latitude": 27.6710, "longitude": 85.4298, "postalCode": "44800" },
+    { "city": "Hetauda", "district": "Makwanpur", "province": "Bagmati Province", "country": "Nepal", "latitude": 27.4284, "longitude": 85.0322, "postalCode": "44100" },
+    { "city": "Pokhara", "district": "Kaski", "province": "Gandaki Province", "country": "Nepal", "latitude": 28.2096, "longitude": 83.9856, "postalCode": "33700" },
+    { "city": "Baglung", "district": "Baglung", "province": "Gandaki Province", "country": "Nepal", "latitude": 28.2719, "longitude": 83.5898, "postalCode": "33300" },
+    { "city": "Beni", "district": "Myagdi", "province": "Gandaki Province", "country": "Nepal", "latitude": 28.3486, "longitude": 83.5670, "postalCode": "33200" },
+    { "city": "Damauli", "district": "Tanahun", "province": "Gandaki Province", "country": "Nepal", "latitude": 27.9819, "longitude": 84.2782, "postalCode": "33900" },
+    { "city": "Biratnagar", "district": "Morang", "province": "Koshi Province", "country": "Nepal", "latitude": 26.4525, "longitude": 87.2718, "postalCode": "56613" },
+    { "city": "Dharan", "district": "Sunsari", "province": "Koshi Province", "country": "Nepal", "latitude": 26.8126, "longitude": 87.2833, "postalCode": "56700" },
+    { "city": "Itahari", "district": "Sunsari", "province": "Koshi Province", "country": "Nepal", "latitude": 26.6630, "longitude": 87.2740, "postalCode": "56705" },
+    { "city": "Damak", "district": "Jhapa", "province": "Koshi Province", "country": "Nepal", "latitude": 26.6734, "longitude": 87.6997, "postalCode": "57217" },
+    { "city": "Janakpur", "district": "Dhanusha", "province": "Madhesh Province", "country": "Nepal", "latitude": 26.7288, "longitude": 85.9250, "postalCode": "45600" },
+    { "city": "Birgunj", "district": "Parsa", "province": "Madhesh Province", "country": "Nepal", "latitude": 27.0104, "longitude": 84.8774, "postalCode": "44300" },
+    { "city": "Kalaiya", "district": "Bara", "province": "Madhesh Province", "country": "Nepal", "latitude": 27.0252, "longitude": 85.0120, "postalCode": "44400" },
+    { "city": "Rajbiraj", "district": "Saptari", "province": "Madhesh Province", "country": "Nepal", "latitude": 26.5387, "longitude": 86.7473, "postalCode": "56400" },
+    { "city": "Butwal", "district": "Rupandehi", "province": "Lumbini Province", "country": "Nepal", "latitude": 27.7000, "longitude": 83.4500, "postalCode": "32907" },
+    { "city": "Bhairahawa", "district": "Rupandehi", "province": "Lumbini Province", "country": "Nepal", "latitude": 27.5056, "longitude": 83.4163, "postalCode": "32900" },
+    { "city": "Tansen", "district": "Palpa", "province": "Lumbini Province", "country": "Nepal", "latitude": 27.8679, "longitude": 83.5462, "postalCode": "32500" },
+    { "city": "Nepalgunj", "district": "Banke", "province": "Lumbini Province", "country": "Nepal", "latitude": 28.0500, "longitude": 81.6167, "postalCode": "21900" },
+    { "city": "Surkhet", "district": "Surkhet", "province": "Karnali Province", "country": "Nepal", "latitude": 28.6019, "longitude": 81.6336, "postalCode": "21700" },
+    { "city": "Jumla", "district": "Jumla", "province": "Karnali Province", "country": "Nepal", "latitude": 29.2747, "longitude": 82.1838, "postalCode": "21200" },
+    { "city": "Dailekh", "district": "Dailekh", "province": "Karnali Province", "country": "Nepal", "latitude": 28.8443, "longitude": 81.7100, "postalCode": "21600" },
+    { "city": "Dhangadhi", "district": "Kailali", "province": "Sudurpashchim Province", "country": "Nepal", "latitude": 28.7014, "longitude": 80.5897, "postalCode": "10900" },
+    { "city": "Mahendranagar", "district": "Kanchanpur", "province": "Sudurpashchim Province", "country": "Nepal", "latitude": 28.9630, "longitude": 80.1815, "postalCode": "10400" },
+    { "city": "Dadeldhura", "district": "Dadeldhura", "province": "Sudurpashchim Province", "country": "Nepal", "latitude": 29.2986, "longitude": 80.5800, "postalCode": "10300" }
+  ]
+}
