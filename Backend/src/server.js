@@ -3,6 +3,7 @@
 // Starts HTTP server and infrastructure service
 
 import { createServer } from 'http';
+import cors from 'cors';
 import app from './app.js';
 import config from './config/index.js';
 import { connectDB, isConnected } from './config/database.js';
@@ -25,6 +26,11 @@ const httpServer = createServer(app);
 const DB_RETRY_INTERVAL_MS = 30_000;
 let dbReconnectInterval = null;
 
+app.use (cors({
+  origin: process.env.CORS_ORIGIN ,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 httpServer.on('error', (error) => {
   if (error?.code === 'EADDRINUSE') {
     console.error(`[FATAL] Port ${PORT} is already in use.`);
