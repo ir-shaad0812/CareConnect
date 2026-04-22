@@ -1,5 +1,4 @@
-
-// APP ENTRY
+//  APP ENTRY
 // Creates and configures the Express application
 import express from 'express';
 import { configureApp } from './loaders/app.loader.js';
