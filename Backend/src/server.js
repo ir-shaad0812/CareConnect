@@ -1,5 +1,4 @@
-﻿
-// SERVER BOOTSTRAP
+﻿// SERVER BOOTSTRAP
 // Starts HTTP server and infrastructure service
 
 import { createServer } from 'http';
